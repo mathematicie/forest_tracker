@@ -1,2 +1,2 @@
 # forest_tracker
-Help protect the environment with such a simple app.
+Help protect the environment with a simple app.
