@@ -1,4 +1,4 @@
-package com.environment.foresttracker;
+//Package name ---
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -83,14 +83,14 @@ public class ShowSingleStateAndData extends AppCompatActivity {
                 String toShow = "";
                 if (treeplant2>treecut2) {
                     int net = treeplant2-treecut2;
-                    toShow = "Gain of "+String.valueOf(net)+" trees. Plant more if you can!";
+                    toShow = "Gain of "+String.valueOf(net)+" trees.";
                 }
                 else if (treecut2>treeplant2) {
                     int net = treecut2-treeplant2;
-                    toShow = "Loss of "+String.valueOf(net)+" trees. Please help get the number to 0";
+                    toShow = "Loss of "+String.valueOf(net)+" trees.";
                 }
                 else if (treecut2==treeplant2){
-                    toShow = "No net gain or loss. Still plant more if you can!";
+                    toShow = "No net gain or loss.";
                 }
                 showNetTrees.setText("Since App Usage Started:\n" +
                         "Trees Cut: "+treecut+"\n" +
