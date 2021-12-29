@@ -1,4 +1,4 @@
-package com.environment.foresttracker;
+//Package name ---
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
