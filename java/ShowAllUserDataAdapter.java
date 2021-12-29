@@ -1,4 +1,4 @@
-package com.environment.foresttracker;
+//Package name ---
 
 import android.view.LayoutInflater;
 import android.view.View;
