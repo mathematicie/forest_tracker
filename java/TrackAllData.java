@@ -1,4 +1,4 @@
-package com.environment.foresttracker;
+//Package name ---
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
