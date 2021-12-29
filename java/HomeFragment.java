@@ -1,4 +1,4 @@
-package com.environment.foresttracker;
+//Package name ---
 
 import android.content.Context;
 import android.content.Intent;
