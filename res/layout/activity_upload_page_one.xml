@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_gradient4"
+
+    tools:context=".UploadPageOne">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white">
+
+
+        <TextView
+            android:id="@+id/selectRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200px"
+            android:text="Select Region"
+            android:layout_marginStart="10pt"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15pt"
+            />
+
+        <Spinner
+
+            android:id="@+id/StateUTSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectRegion"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="100px"
+            android:layout_marginRight="100px"
+
+            />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/StateUTSelect"
+        android:id="@+id/localitySelect"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="100px"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/continueFromLocation"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/localitySelect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="15pt"
+            android:layout_marginEnd="15pt"
+            android:background="@drawable/button_gradient11"
+            android:text="Continue"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

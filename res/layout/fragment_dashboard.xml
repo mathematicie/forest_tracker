@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_gradient8"
+    tools:context=".DashboardFragment">
+
+    <RelativeLayout
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textNameDashboard"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="150px"
+                android:layout_marginEnd="15dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="8pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showNameDashboard"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textNameDashboard"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="9pt" />
+
+            <TextView
+                android:id="@+id/showTextStateUT"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showNameDashboard"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10pt"
+                android:layout_marginEnd="15dp"
+                android:text="Your State/UT"
+                android:textColor="@color/black"
+                android:textSize="8pt"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/showStateUTDashboard"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showTextStateUT"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:text="State/UT"
+                android:textColor="@color/black"
+                android:textSize="9pt" />
+
+            <TextView
+                android:id="@+id/showTextDistrict"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showStateUTDashboard"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10pt"
+                android:layout_marginEnd="15dp"
+                android:text="District"
+                android:textColor="@color/black"
+                android:textSize="8pt"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/showDistrictDashboard"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showTextDistrict"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="15dp"
+                android:text="District"
+                android:textColor="@color/black"
+                android:textSize="9pt" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seeAllDataUploaded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showDistrictDashboard"
+                android:layout_marginTop="100px"
+                android:background="@drawable/material_gradient2"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:paddingStart="15dp"
+                android:text="See Data Uploaded By You"
+                android:textAlignment="textStart"
+                android:textColor="#FFF" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seeAllDataUploaded"
+                android:layout_marginTop="1pt"
+                android:textAlignment="textStart"
+                android:paddingStart="15dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:background="@drawable/material_gradient6"
+                android:text="Help"
+                android:textColor="#FFF" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1pt"
+                android:textAlignment="textStart"
+                android:paddingStart="15dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_below="@id/help"
+                android:background="@drawable/material_gradient7"
+                android:text="About"
+                android:textColor="#FFF" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about"
+                android:layout_marginTop="1pt"
+                android:textAlignment="textStart"
+                android:paddingStart="15dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:background="@drawable/material_gradient11"
+                android:text="Feedback / Suggest a Feature"
+                android:textColor="#FFF" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

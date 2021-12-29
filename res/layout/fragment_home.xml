@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10pt"
+      tools:context=".HomeFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello,"
+        android:textSize="8pt"
+        android:textColor="@color/black"
+        android:id="@+id/showHelloHome"/>
+
+
+    <TextView
+        android:layout_below="@id/showHelloHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:id="@+id/showNameHome"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showNameHome"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reportPlantedTrees"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_gradient3"
+            android:drawableTop="@drawable/sharp_park_24"
+            android:drawableTint="#FFF"
+            android:paddingTop="10pt"
+            android:paddingBottom="10pt"
+            android:text="Report Planted Trees"
+            android:textColor="#FFF" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reportCutTrees"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/button_gradient4"
+            android:drawableTop="@drawable/sharp_park_24"
+            android:drawableTint="#FFF"
+            android:paddingTop="10pt"
+            android:paddingBottom="10pt"
+            android:text="Report Cut Trees"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_below="@id/linearLayout1"
+        android:layout_marginTop="10pt"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="View All Data"
+            android:paddingTop="10pt"
+            android:paddingBottom="10pt"
+
+
+            android:background="@drawable/button_gradient8"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:textColor="#FFF"
+            android:drawableTop="@drawable/ic_baseline_format_list_bulleted_24"
+            android:id="@+id/viewAllData"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="View Your State Data"
+            android:background="@drawable/button_gradient6"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:paddingTop="10pt"
+            android:paddingBottom="10pt"
+
+
+            android:layout_marginStart="10dp"
+            android:drawableTop="@drawable/ic_baseline_location_on_24"
+            android:id="@+id/viewYourStateData"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginTop="150px"
+        android:text="Summary: "
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:id="@+id/showSummaryText"/>
+
+    <TextView
+        android:id="@+id/showSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showSummaryText"
+        android:layout_marginTop="10dp"
+
+        android:text="Tree Planted Reports:\nTree Cut Reports:"
+        android:textColor="@color/black"
+        android:textSize="9pt" />
+
+
+
+
+</RelativeLayout>

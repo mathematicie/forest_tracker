@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolveMath"
+    android:background="@drawable/material_gradient2"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:layout_marginStart="10pt"
+
+            android:textColor="@color/black"
+            android:id="@+id/showLocationOnMathActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:text="State/UT"
+            android:textAlignment="textStart"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/showDistrictOnMathActivity"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showLocationOnMathActivity"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="10dp"
+            android:text="District"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="7pt"
+            android:layout_marginEnd="7pt"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/showDistrictOnMathActivity"
+            android:background="#456"/>
+
+
+        <TextView
+
+            android:id="@+id/showDataToUploadMathActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showDistrictOnMathActivity"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100px"
+            android:text="Data: Trees :"
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+
+        <TextView
+            android:id="@+id/showMathProblem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showDataToUploadMathActivity"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="10pt"
+            android:text="Math Problem"
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextMath"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showMathProblem"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100dp"
+
+            android:layout_marginEnd="10pt"
+
+            android:hint="Enter answer">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:digits="0123456789-"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextMath"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100px"
+            android:layout_marginEnd="10pt"
+            android:textColor="#FFF"
+            android:background="@drawable/button_gradient7"
+            android:text="Submit" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

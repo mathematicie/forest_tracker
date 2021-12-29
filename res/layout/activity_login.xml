@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/material_gradient7"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:id="@+id/loginTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100px"
+            android:text="Get Started "
+
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textField1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginTextView1"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="15pt"
+            android:layout_marginEnd="10pt"
+            android:hint="Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your Home State"
+            android:layout_below="@id/textField1"
+            android:layout_marginTop="15pt"
+            android:layout_marginStart="10pt"
+            android:layout_marginEnd="10pt"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:id="@+id/textSelectHomeState"/>
+
+
+        <Spinner
+            android:id="@+id/selectHomeState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10pt"
+            android:layout_marginEnd="10pt"
+            android:layout_below="@id/textSelectHomeState"
+            android:layout_marginTop="5pt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:layout_below="@id/selectHomeState"
+            android:layout_marginTop="15pt"
+            android:layout_marginStart="10pt"
+            android:layout_marginEnd="10pt"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:id="@+id/textSelectHomeDistrict"/>
+
+
+        <Spinner
+            android:id="@+id/selectHomeDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textSelectHomeDistrict"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="5pt"
+            android:layout_marginEnd="10pt" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectHomeDistrict"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_gradient6"
+            android:text="Continue"
+            android:textColor="#FFF" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

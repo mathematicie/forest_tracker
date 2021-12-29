@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/material_gradient4">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white">
+
+
+
+        <TextView
+            android:layout_marginStart="10pt"
+
+            android:textColor="@color/black"
+            android:id="@+id/showLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:text="State/UT"
+            android:textAlignment="textStart"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/showDistrict"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showLocation"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="10dp"
+            android:text="District"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="7pt"
+            android:layout_marginEnd="7pt"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/showDistrict"
+            android:background="#456"/>
+
+        <TextView
+
+            android:id="@+id/showNetTrees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showDistrict"
+
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100px"
+            android:text="Data: "
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addTreesCutData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gradient"
+            android:textColor="@color/white"
+            android:layout_marginStart="15pt"
+
+            android:layout_marginEnd="15pt"
+            android:layout_marginBottom="10pt"
+            android:layout_above="@id/addTreesPlantedData"
+
+        android:text="Add Trees Cut Data" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Trees Planted Data"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10pt"
+        android:layout_marginStart="15pt"
+        android:layout_marginEnd="15pt"
+        android:textColor="@color/white"
+        android:background="@drawable/button_gradient8"
+        android:id="@+id/addTreesPlantedData"
+        />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

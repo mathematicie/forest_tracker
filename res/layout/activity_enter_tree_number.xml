@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_gradient4"
+    tools:context=".EnterTreeNumber">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white">
+
+
+        <TextView
+            android:id="@+id/showLocationOnTreeNumberActivity"
+            android:layout_marginTop="100px"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10pt"
+            android:text="State/UT"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/showDistrictOnTreeNumberActivity"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showLocationOnTreeNumberActivity"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="10dp"
+            android:text="District"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="7pt"
+            android:layout_marginEnd="7pt"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/showDistrictOnTreeNumberActivity"
+            android:background="#456"/>
+
+        <TextView
+
+            android:id="@+id/showDataToUploadTreeNumberActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showDistrictOnTreeNumberActivity"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100px"
+            android:text="Data: "
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextTreeNumber"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showDataToUploadTreeNumberActivity"
+            android:layout_marginStart="10pt"
+            android:layout_marginTop="100px"
+            android:layout_marginEnd="10pt"
+
+            android:hint="Enter the Number marked on Tree">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitTreeNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTreeNumber"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_gradient4"
+            android:text="Submit"
+            android:layout_marginStart="10pt"
+            android:layout_marginEnd="10pt"
+            android:textColor="@color/white" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

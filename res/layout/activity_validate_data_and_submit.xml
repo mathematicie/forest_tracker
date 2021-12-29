@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_gradient8"
+    tools:context=".ValidateDataAndSubmit"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white"
+        android:paddingLeft="10pt"
+        android:paddingRight="10pt">
+
+
+
+
+        <TextView
+            android:id="@+id/proceedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:layout_marginTop="15pt"
+
+            android:text="Proceed using any one option to upload the Data"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_below="@id/proceedText"
+            android:id="@+id/imageProofButton"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100px"
+            android:background="@drawable/button_gradient8"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:paddingLeft="10pt"
+            android:paddingRight="10pt"
+            android:text="Add an Image Proof"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/treeNumberButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageProofButton"
+            android:background="@drawable/button_gradient10"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:paddingLeft="10pt"
+            android:paddingRight="10pt"
+            android:text="Enter the Tree Id\n(Usually a number marked on it)"
+            android:textColor="@color/white" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/solveMathButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/treeNumberButton"
+            android:layout_marginTop="100px"
+            android:textColor="@color/white"
+            android:background="@drawable/button_gradient2"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:paddingLeft="10pt"
+            android:paddingRight="10pt"
+            android:text="Solve a simple Math Problem >" />
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+

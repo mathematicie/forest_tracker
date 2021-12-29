@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_gradient4"
+
+    tools:context=".TreePlantDataRegister">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/top_round_corners"
+        android:backgroundTint="@color/white">
+
+
+    <NumberPicker
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number2"
+        />
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter number of Trees planted"
+        android:layout_below="@+id/number2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/treesplanted"
+        android:background="@drawable/button_gradient9"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+
+        android:layout_marginStart="15pt"
+        android:layout_marginEnd="15pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Validate and Register >" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_gradient8"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/iconIntro"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#FFF"
+        android:textSize="15pt"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@id/iconIntro"
+        android:text="Forest Tracker"
+        android:id="@+id/showAppNamePage1"
+        />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/showDescription1"
+        android:layout_below="@id/showAppNamePage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#FFF"
+        android:layout_marginStart="10pt"
+        android:layout_marginEnd="10pt"
+        android:layout_marginTop="15pt"
+        android:text="@string/intro_text_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:layout_marginStart="10pt"
+        android:layout_marginEnd="10pt"
+        android:layout_marginTop="15pt"
+        android:text="@string/intro_text2"
+        android:layout_below="@id/showDescription1"/>
+
+</RelativeLayout>

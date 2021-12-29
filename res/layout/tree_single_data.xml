@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="District"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:id="@+id/showSingleDistrict"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trees Cut: "
+        android:layout_below="@id/showSingleDistrict"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/showSingleDataTreesCut"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trees Planted: "
+        android:textSize="15dp"
+        android:layout_below="@id/showSingleDataTreesCut"
+        android:textColor="@color/black"
+        android:id="@+id/showSingleDataTreesPlanted"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net: "
+        android:textSize="15dp"
+        android:layout_below="@id/showSingleDataTreesPlanted"
+        android:textColor="@color/black"
+        android:id="@+id/showSingleDataNetTrees"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/showSingleDataNetTrees"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"/>
+
+
+
+</RelativeLayout>

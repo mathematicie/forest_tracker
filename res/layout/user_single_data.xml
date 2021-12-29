@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/showStateUTSingleData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State/UT"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_marginStart="10pt"
+        android:layout_marginTop="5pt"/>
+
+    <TextView
+        android:id="@+id/showDistrictSingleData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="District"
+        android:layout_below="@id/showStateUTSingleData"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:layout_marginStart="10pt"
+        android:layout_marginTop="2pt"/>
+
+    <TextView
+        android:id="@+id/showTreeNumberSingleData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:layout_below="@id/showDistrictSingleData"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:layout_marginStart="10pt"
+        android:layout_marginTop="5pt"/>
+
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/showDateTimeSingleData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Time"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:layout_marginEnd="10pt"
+        android:layout_below="@id/showDistrictSingleData"
+        android:layout_marginStart="10pt"
+        android:layout_marginTop="5pt"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/showTreeNumberSingleData"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
