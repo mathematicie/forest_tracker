@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Forest Tracker</string>
+    <string name="intro_text_1">Hey, welcome!\nThis app is all about protecting the environment! A unique method!</string>
+    <string name="intro_text2">Genuine Help and Support from all of you is required!</string>
+    <string name="intro_text3">Deforestation is happening at an alaraming rate. We all know.</string>
+    <string name="intro_text4">Trees are also being cut illegally. <br /> So, this app is to check that.</string>
+    <string name="intro_text5">If you see a tree being cut or planted (or even plant one yourself).
+        You have to report that using the app.</string>
+    <string name="intro_text6">So, we can keep a track of trees all over the country! And see whether Tree cover
+    is increasing or decreasing!</string>
+    <string name="intro_text7">Let\'s increase the Tree cover and make the number reach 33%</string>
+
+
+
+    <string name="help_text1">Hello, the app\'s UX has been kept simple.\n\n
+        The main thing you have to do is to report that how many trees are being cut or planted in a certain locality.\n\n
+
+        \n
+            <li><b><big>\tTo upload for your locality: </big>  </b></li>\n
+            Simply select Report Trees Cut or Planted on the Home Screen. \n\n
+
+            <li><b><big>\tTo upload for another locality: </big>  </b></li>\n
+            Use the upload button on bottom right of the app. \n\n
+
+            <li><b><big>\tTrack Screen</big>  </b></li>\n
+            To see data of any state you want. \n\n
+
+
+            <li><b><big>\tDashboard Screen</big>  </b></li>\n
+            See your name, state and district. You can even change them if you want to. Also, you can see all the data
+            for trees that you have uploaded so far.\n\n
+
+            <li><big><big>\t<u>Important</u></big></big>  </li>\n
+            After you select some data to upload, you will have to validate that. Currently there are three supported options:\n
+            - Enter the Tree ID (the numbers usually marked on trees)\n
+            - Upload an image proof.\n
+            - Solve a simple math problem! Yes!\n\n
+                <big><big>Please do not report false data! It is a humble request.
+                    That is why genuine support is required. Thank You </big></big>\n\n
+
+
+
+
+
+    </string>
+  
+
+</resources>
