@@ -1,10 +1,11 @@
 # Forest Tracker
-
+## Introduction
 Hey there! This app is all about protecting the environment! A unique method. Deforestation is happening at an alarming rate. We all know. Trees are also being cut illegally. 
 So, this app is to check that.
 The basic idea is to keep a track of every single tree cut or planted. So, we can exactly determine the percentage tree cover after the app usage has been started.
 The first step to protecting the environment is to know our resources. 
 
+## Description of the App
 The app uses firebase to store data at backend.
 
 -	App begins with a 3 page intro slider.
@@ -78,6 +79,7 @@ forest-tracker
 |		- 'n' TreesCut DD-MM-YYYY_HH-MM-SS_AA: "{Tree ID}"
 ~~~     
 
+### Explanation
 - Database for locations has been maintained as shown above.
 - Similarly, when someone uses “Math Problem” as validation, it is stored under “Math Problems” under State under District formatted as
     -	‘n’ TreesPlanted DD-MM-YYYY_HH-MM-SS_AA: "Answered {Answer}"
@@ -103,6 +105,7 @@ forest-tracker
 3.	Add some incentives. For instance, TreeCoins. A user would get, say, 10 TreeCoins for every tree cut/planted report. That would make it even more interesting. 
 Also, can maintain a leaderboard and give some rewards, it would make people more willing to participate.
 
+## Contribution
+Any contribution on this project will be much appreciated.
 
-
-
+### Thank You
