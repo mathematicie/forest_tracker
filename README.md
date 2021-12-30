@@ -6,6 +6,7 @@ The basic idea is to keep a track of every single tree cut or planted. So, we ca
 The first step to protecting the environment is to know our resources. 
 
 The app uses firebase to store data at backend.
+
 -	App begins with a 3 page intro slider.
 -	Next screen takes the user to simple login asking for name (not stored online, just for Hello!), and selecting Home state and district.
 -	Main home screen has 3 bottom navigations and a “Upload” Floating action button
@@ -40,9 +41,8 @@ The app uses firebase to store data at backend.
       
 After validation, data is successfully uploaded.
 
-
+## Firebase Data Structure:
 ~~~
-Firebase Data Structure:
 forest-tracker
 |    -Feedback
 |	-Random UUID: “{Feedback}”
@@ -92,10 +92,12 @@ forest-tracker
     -	{UUID}: “Suggested Feature”
 -	When someone writes a feedback, it is stored under “Feedback” under a random UUID as 
     -	{UUID}: “Feedback”
-User’s privacy has been taken very seriously. You can see, instead of maintain such a large database, location could be fetched easily using GPS, but it has not been done. 
-Similarly, the name is not uploaded anywhere. It is stored only in the phone only for greeting purposes. Same is the case for Home state and district.
 
-Future Developments:
+## Privacy
+- User’s privacy has been taken very seriously. You can see, instead of maintain such a large database, location could be fetched easily using GPS, but it has not been done. 
+- Similarly, the name is not uploaded anywhere. It is stored only in the phone only for greeting purposes. Same is the case for Home state and district.
+
+## Future Developments:
 1.	Add more validation options and optimize the existing ones. Like, someone can still enter false Tree ID or upload any image, there is no method to check that even. Math problem is also not apt here.
 2.	Make the App’s UI and UX more interesting.
 3.	Add some incentives. For instance, TreeCoins. A user would get, say, 10 TreeCoins for every tree cut/planted report. That would make it even more interesting. 
